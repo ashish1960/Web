@@ -1,0 +1,133 @@
+
+*{
+  padding: 0px;
+  margin: 0px;
+  position: relative;
+  
+}
+
+@media screen and (min-width:992px){
+    .navbar .container-fluid, .navbar-expand-lg .navbar-collapse, .navbar-expand-lg .navbar-nav {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        
+        
+    }
+    .navbar{
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+        position: fixed;
+        background: black;
+    }
+    .navbar-brand{
+        margin: 10px;
+        font-family:"Poppins", sans-serif;
+        font-size: 24px;
+    }
+    .container-fluid {
+      width: 335px;
+      overflow: hidden;
+      display: inline;
+      direction: unset;
+    }
+    .collapse p{
+      color: #fff;
+      padding-top: 140px;
+      
+    }
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.navbar-toggler{
+   margin: 5px;  
+}
+.navbar-brand img{
+    margin: 15px auto ;
+display: block;
+width: 120px;
+}
+.navbar-brand h3 {
+    font-size: 25px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+  }
+.nav-item a{
+    margin-top: 10px;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+.hero{
+    background: url("pexels-danny-meneses-943096.jpg")center rgba(35, 38, 38, 0.39);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+ 
+ 
+}
+
+.hero:before {
+    
+    background: rgba(17, 17, 17, 0.123);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+ 
+  .hero h1 {
+    margin: 0 0 10px 0;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+    text-align: center;
+    padding-top: 166px;
+  }
+  
+  .hero span{
+    
+    font-size: 30px;
+    text-decoration: underline ;
+  }
+  .hero p {
+    color: #fff;
+     margin-bottom: -5px;
+    font-size: 26px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+  }
+  .typed-cursor {
+    opacity: 1;
+}
+
+  .hero p span {
+    color: #fff;
+    padding-bottom: 4px;
+    letter-spacing: 1px;
+   
+    
+  }
+  @media (min-width: 1024px) {
+    .hero {
+      background-attachment: fixed;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .hero h1 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+  
+    
+  }
